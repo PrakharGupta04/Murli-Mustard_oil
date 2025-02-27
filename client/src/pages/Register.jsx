@@ -33,7 +33,7 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/register', {
+      const response = await fetch('https://qualified-chiquia-oil-products-fab34b7b.koyeb.app/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
