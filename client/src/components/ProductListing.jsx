@@ -5,7 +5,7 @@ import { Button } from "../pages/Button";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const API_URL = "http://localhost:5000"; // Your backend URL
+const API_URL = "https://qualified-chiquia-oil-products-fab34b7b.koyeb.app"; // Your backend URL
 
 const ProductCard = ({ product, addToCart }) => (
   <Card className="shadow-xl rounded-lg bg-white border border-green-500">
