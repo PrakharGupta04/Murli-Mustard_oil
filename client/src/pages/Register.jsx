@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '../components/ui/card';
-import { Button } from "../components/ui/Button";
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from './Card';
+import { Button } from "./Button";
 
 const Register = () => {
   const navigate = useNavigate();

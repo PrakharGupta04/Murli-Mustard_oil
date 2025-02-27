@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
-import { Button } from './ui/Button';
+import { Button } from '../pages/Button';
 
 const Navbar = () => {
   const navigate = useNavigate();

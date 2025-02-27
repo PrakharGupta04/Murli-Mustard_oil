@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/Card';
-import { Button } from '../components/ui/Button';
+import { Card, CardContent, CardHeader, CardTitle } from './Card';
+import { Button } from './Button';
 
 const loadRazorpay = () => {
   return new Promise((resolve) => {

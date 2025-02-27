@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { useNavigate } from "react-router-dom"; // Changed from Next.js router
-import { Card, CardContent } from "./ui/Card";
-import { Button } from "./ui/Button";
+import { Card, CardContent } from "../pages/Card";
+import { Button } from "../pages/Button";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 

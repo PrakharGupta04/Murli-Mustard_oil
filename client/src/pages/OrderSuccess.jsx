@@ -1,7 +1,7 @@
 // src/pages/OrderSuccess.jsx
 import { useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
-import { Button } from '../components/ui/Button';
+import { Card, CardContent, CardHeader, CardTitle } from "./Card";
+import { Button } from './Button';
 import { CheckCircle } from 'lucide-react';
 
 const OrderSuccess = () => {
