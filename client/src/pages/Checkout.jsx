@@ -67,7 +67,7 @@ const Checkout = () => {
       const authToken = token.startsWith('Bearer ') ? token : `Bearer ${token}`;
 
       // Create order
-      const orderResponse = await fetch('http://localhost:5000/create-order', {
+      const orderResponse = await fetch('https://qualified-chiquia-oil-products-fab34b7b.koyeb.app/create-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ const Checkout = () => {
         handler: async function(response) {
           try {
             // Verify payment
-            const verifyResponse = await fetch('http://localhost:5000/verify-payment', {
+            const verifyResponse = await fetch('https://qualified-chiquia-oil-products-fab34b7b.koyeb.app/verify-payment', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
